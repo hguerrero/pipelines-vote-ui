@@ -12,7 +12,7 @@ components:
           value: '9000'
       cpuRequest: '30m'
       memoryRequest: '256Mi'
-      cpuLimit: '1'
+      cpuLimit: '1000m'
       memoryLimit: '2Gi'
       endpoints:
         - name: vote-ui
